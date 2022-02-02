@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-    Route::apiResource('corredor', '\App\Http\Controllers\CorredorController');
-    Route::apiResource('prova', '\App\Http\Controllers\ProvaController');
-    Route::post('corredor/incluirCorredor','App\Http\Controllers\CorredorController@incluirCorredor');
+    Route::apiResource('competition', '\App\Http\Controllers\CompetitionController');
+    Route::apiResource('runner', '\App\Http\Controllers\RunnerController');
+    Route::apiResource('result', '\App\Http\Controllers\ResultController');
+    Route::post('runner/add_runner_to_competition','App\Http\Controllers\RunnerController@addRunnerToCompetition');
 
 
 

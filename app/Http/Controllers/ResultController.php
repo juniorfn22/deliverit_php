@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Competicao;
+use App\Models\Result;
 use Illuminate\Http\Request;
 
-class CompeticaoController extends Controller
+class ResultController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class CompeticaoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Competicao  $competicao
+     * @param  \App\Models\Result  $results
      * @return \Illuminate\Http\Response
      */
-    public function show(Competicao $competicao)
+    public function show(Result $results)
     {
         //
     }
@@ -52,10 +52,10 @@ class CompeticaoController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Competicao  $competicao
+     * @param  \App\Models\Result  $results
      * @return \Illuminate\Http\Response
      */
-    public function edit(Competicao $competicao)
+    public function edit(Result $results)
     {
         //
     }
@@ -64,10 +64,10 @@ class CompeticaoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Competicao  $competicao
+     * @param  \App\Models\Result  $results
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Competicao $competicao)
+    public function update(Request $request, Result $results)
     {
         //
     }
@@ -75,10 +75,10 @@ class CompeticaoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Competicao  $competicao
+     * @param  \App\Models\Result  $results
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Competicao $competicao)
+    public function destroy(Result $results)
     {
         //
     }
